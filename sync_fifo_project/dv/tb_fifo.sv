@@ -1,3 +1,10 @@
+// =========================================================================
+    // Waveform Generation (ADD THIS BLOCK)
+    // =========================================================================
+    initial begin
+        $dumpfile("fifo_waves.vcd"); // Name of the waveform file
+        $dumpvars(0, tb_fifo);       // Record all signals in the testbench and DUT
+    end
 `timescale 1ns/1ps
 
 module tb_fifo();
