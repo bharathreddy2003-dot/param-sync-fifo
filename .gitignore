@@ -1,0 +1,10 @@
+# Ignore simulation output files
+*.vcd
+*.fsdb
+*.log
+*.jou
+*.pb
+simv
+csrc/
+INCA_libs/
+work/
